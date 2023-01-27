@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+        <link rel="styleSheet" href="/styles/styleTrack.css"/>
+
+    <body>
+<div class="headTracks">
+    <h1>Title</h1>
+    <h1>Piste</h1>
+</div>
+<div class="tracks">
+    
+            {{#each artists}}
+            <div class="trackSong">
+            <h3>{{name}}</h3>
+          <figure>
+<audio title={{name}} preload="auto" controls loop>
+<source src={{preview_url}} type="audio/mp3">
+</audio>
+</figure>
+</div>
+        {{/each}} 
+</div>
+       
+       
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body {
+  background-image: url("../images/spotify-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 10px;
+  margin-top: 20%;
+  margin-left: 35%;
+  background-color: rgb(240, 240, 240,0.6);
+  padding: 50px;
+  width: 500px;
+}
+
+.submit{
+    background-color: rgb(223, 62, 62);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+.input{
+    width: 350px;
+    height: 25px;
+    border: none;
+}

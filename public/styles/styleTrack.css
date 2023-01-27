@@ -1,0 +1,21 @@
+.headTracks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: gray;
+  color: white;
+}
+
+.headTracks h1 {
+  margin-right: 200px;
+  margin-left: 100px;
+}
+
+.trackSong {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  background-color: gainsboro;
+}
